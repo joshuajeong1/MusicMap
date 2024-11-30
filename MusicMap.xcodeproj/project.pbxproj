@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0311F3312CF5B69400EBF260 /* InfoDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311F3302CF5B69400EBF260 /* InfoDictionary.swift */; };
+		0311F3332CF5B6B200EBF260 /* ListeningHabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311F3322CF5B6B200EBF260 /* ListeningHabitsView.swift */; };
+		0311F3352CF5B6B700EBF260 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311F3342CF5B6B700EBF260 /* LocationView.swift */; };
+		0311F3372CF5B6BE00EBF260 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311F3362CF5B6BD00EBF260 /* MapView.swift */; };
+		0311F3392CF5B6CD00EBF260 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311F3382CF5B6CD00EBF260 /* Song.swift */; };
+		036217AC2CF4843B00D6228A /* MusicMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036217AB2CF4843B00D6228A /* MusicMapApp.swift */; };
+		036217AE2CF4843B00D6228A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036217AD2CF4843B00D6228A /* ContentView.swift */; };
+		036217B02CF4843B00D6228A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036217AF2CF4843B00D6228A /* Assets.xcassets */; };
+		036217B32CF4843B00D6228A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036217B22CF4843B00D6228A /* Preview Assets.xcassets */; };
+		036217B52CF4843B00D6228A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036217B42CF4843B00D6228A /* Persistence.swift */; };
+		036217C22CF4849900D6228A /* SpotifyAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036217C12CF4849900D6228A /* SpotifyAuth.swift */; };
+		036217C32CF484AD00D6228A /* SpotifyiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036217BE2CF4846E00D6228A /* SpotifyiOS.xcframework */; };
+		036217C42CF484AD00D6228A /* SpotifyiOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 036217BE2CF4846E00D6228A /* SpotifyiOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		036217C72CF4859E00D6228A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036217C62CF4859E00D6228A /* SignInView.swift */; };
+		036217CC2CF486F800D6228A /* jsonWebVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036217CB2CF486F800D6228A /* jsonWebVM.swift */; };
+		0384D23B2CF9274000024F63 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0384D23A2CF9274000024F63 /* DetailedView.swift */; };
+		0384D23D2CF929A900024F63 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0384D23C2CF929A900024F63 /* SettingsView.swift */; };
+		03D6D0D52CF870E200A05BB0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D6D0D42CF870E200A05BB0 /* LocationManager.swift */; };
+		03D6F82F2CF721D3007C5B5C /* MusicMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03D6F82D2CF721D3007C5B5C /* MusicMap.xcdatamodeld */; };
+		03E012BE2CFB106400B9B50B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E012BD2CFB106400B9B50B /* Location.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		036217C52CF484AD00D6228A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				036217C42CF484AD00D6228A /* SpotifyiOS.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0311F3302CF5B69400EBF260 /* InfoDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDictionary.swift; sourceTree = "<group>"; };
+		0311F3322CF5B6B200EBF260 /* ListeningHabitsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningHabitsView.swift; sourceTree = "<group>"; };
+		0311F3342CF5B6B700EBF260 /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		0311F3362CF5B6BD00EBF260 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0311F3382CF5B6CD00EBF260 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		036217A82CF4843B00D6228A /* MusicMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036217AB2CF4843B00D6228A /* MusicMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicMapApp.swift; sourceTree = "<group>"; };
+		036217AD2CF4843B00D6228A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		036217AF2CF4843B00D6228A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036217B22CF4843B00D6228A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		036217B42CF4843B00D6228A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		036217BE2CF4846E00D6228A /* SpotifyiOS.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2FNC3A47ZF:Spotify"; lastKnownFileType = wrapper.xcframework; path = SpotifyiOS.xcframework; sourceTree = "<group>"; };
+		036217C02CF4848600D6228A /* MusicMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		036217C12CF4849900D6228A /* SpotifyAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyAuth.swift; sourceTree = "<group>"; };
+		036217C62CF4859E00D6228A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		036217CB2CF486F800D6228A /* jsonWebVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonWebVM.swift; sourceTree = "<group>"; };
+		0384D23A2CF9274000024F63 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		0384D23C2CF929A900024F63 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		03D6D0D42CF870E200A05BB0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		03D6F82E2CF721D3007C5B5C /* MusicMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicMap.xcdatamodel; sourceTree = "<group>"; };
+		03E012BD2CFB106400B9B50B /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036217A52CF4843B00D6228A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036217C32CF484AD00D6228A /* SpotifyiOS.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0362179F2CF4843A00D6228A = {
+			isa = PBXGroup;
+			children = (
+				036217AA2CF4843B00D6228A /* MusicMap */,
+				036217A92CF4843B00D6228A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036217A92CF4843B00D6228A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036217A82CF4843B00D6228A /* MusicMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036217AA2CF4843B00D6228A /* MusicMap */ = {
+			isa = PBXGroup;
+			children = (
+				036217C62CF4859E00D6228A /* SignInView.swift */,
+				036217C12CF4849900D6228A /* SpotifyAuth.swift */,
+				036217C02CF4848600D6228A /* MusicMap-Bridging-Header.h */,
+				036217BE2CF4846E00D6228A /* SpotifyiOS.xcframework */,
+				036217AB2CF4843B00D6228A /* MusicMapApp.swift */,
+				036217AD2CF4843B00D6228A /* ContentView.swift */,
+				036217AF2CF4843B00D6228A /* Assets.xcassets */,
+				03E012BD2CFB106400B9B50B /* Location.swift */,
+				036217B42CF4843B00D6228A /* Persistence.swift */,
+				036217CB2CF486F800D6228A /* jsonWebVM.swift */,
+				0311F3302CF5B69400EBF260 /* InfoDictionary.swift */,
+				03D6F82D2CF721D3007C5B5C /* MusicMap.xcdatamodeld */,
+				0311F3322CF5B6B200EBF260 /* ListeningHabitsView.swift */,
+				0311F3342CF5B6B700EBF260 /* LocationView.swift */,
+				0311F3362CF5B6BD00EBF260 /* MapView.swift */,
+				0311F3382CF5B6CD00EBF260 /* Song.swift */,
+				036217B12CF4843B00D6228A /* Preview Content */,
+				03D6D0D42CF870E200A05BB0 /* LocationManager.swift */,
+				0384D23A2CF9274000024F63 /* DetailedView.swift */,
+				0384D23C2CF929A900024F63 /* SettingsView.swift */,
+			);
+			path = MusicMap;
+			sourceTree = "<group>";
+		};
+		036217B12CF4843B00D6228A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				036217B22CF4843B00D6228A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036217A72CF4843B00D6228A /* MusicMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036217BB2CF4843B00D6228A /* Build configuration list for PBXNativeTarget "MusicMap" */;
+			buildPhases = (
+				036217A42CF4843B00D6228A /* Sources */,
+				036217A52CF4843B00D6228A /* Frameworks */,
+				036217A62CF4843B00D6228A /* Resources */,
+				036217C52CF484AD00D6228A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicMap;
+			productName = MusicMap;
+			productReference = 036217A82CF4843B00D6228A /* MusicMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036217A02CF4843A00D6228A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					036217A72CF4843B00D6228A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 036217A32CF4843A00D6228A /* Build configuration list for PBXProject "MusicMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0362179F2CF4843A00D6228A;
+			productRefGroup = 036217A92CF4843B00D6228A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036217A72CF4843B00D6228A /* MusicMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036217A62CF4843B00D6228A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036217B32CF4843B00D6228A /* Preview Assets.xcassets in Resources */,
+				036217B02CF4843B00D6228A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036217A42CF4843B00D6228A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0311F3392CF5B6CD00EBF260 /* Song.swift in Sources */,
+				036217CC2CF486F800D6228A /* jsonWebVM.swift in Sources */,
+				0311F3312CF5B69400EBF260 /* InfoDictionary.swift in Sources */,
+				036217C72CF4859E00D6228A /* SignInView.swift in Sources */,
+				0311F3372CF5B6BE00EBF260 /* MapView.swift in Sources */,
+				03E012BE2CFB106400B9B50B /* Location.swift in Sources */,
+				036217C22CF4849900D6228A /* SpotifyAuth.swift in Sources */,
+				0311F3332CF5B6B200EBF260 /* ListeningHabitsView.swift in Sources */,
+				0384D23B2CF9274000024F63 /* DetailedView.swift in Sources */,
+				036217B52CF4843B00D6228A /* Persistence.swift in Sources */,
+				0384D23D2CF929A900024F63 /* SettingsView.swift in Sources */,
+				0311F3352CF5B6B700EBF260 /* LocationView.swift in Sources */,
+				03D6D0D52CF870E200A05BB0 /* LocationManager.swift in Sources */,
+				036217AE2CF4843B00D6228A /* ContentView.swift in Sources */,
+				03D6F82F2CF721D3007C5B5C /* MusicMap.xcdatamodeld in Sources */,
+				036217AC2CF4843B00D6228A /* MusicMapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		036217B92CF4843B00D6228A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036217BA2CF4843B00D6228A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036217BC2CF4843B00D6228A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicMap/Preview Content\"";
+				DEVELOPMENT_TEAM = 86HLHT43D7;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Music Map needs to access your location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = jjjeong.MusicMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036217BD2CF4843B00D6228A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicMap/Preview Content\"";
+				DEVELOPMENT_TEAM = 86HLHT43D7;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Music Map needs to access your location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = jjjeong.MusicMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036217A32CF4843A00D6228A /* Build configuration list for PBXProject "MusicMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036217B92CF4843B00D6228A /* Debug */,
+				036217BA2CF4843B00D6228A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036217BB2CF4843B00D6228A /* Build configuration list for PBXNativeTarget "MusicMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036217BC2CF4843B00D6228A /* Debug */,
+				036217BD2CF4843B00D6228A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03D6F82D2CF721D3007C5B5C /* MusicMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03D6F82E2CF721D3007C5B5C /* MusicMap.xcdatamodel */,
+			);
+			currentVersion = 03D6F82E2CF721D3007C5B5C /* MusicMap.xcdatamodel */;
+			name = MusicMap.xcdatamodeld;
+			path = "/Users/josh/Desktop/School/Sem 5/CSE335/MusicMap/MusicMap/MusicMap.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 036217A02CF4843A00D6228A /* Project object */;
+}
